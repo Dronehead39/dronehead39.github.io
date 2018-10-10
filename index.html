@@ -2,8 +2,10 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <title>ポートフォリオ</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:700,400">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,8 +26,8 @@
       以前から興味があったプログラミング、Webサイトの作成を最近修業中。
     </p>
     <p class="profile-text">
-      このサイトはWebデザインのポートフォリオであり、同時に写真のポートフォリオでもあります。<br>
-      僕が実際に作れるWebサイトで写真僕の能力を提示します。
+      このサイトは僕のプロフィールサイトで、Webデザインのポートフォリオでもあります<br>
+      僕が実際に作ったこのWebサイトで撮った写真や僕のスキルを紹介します。
     </p>
 
   </section>
@@ -52,8 +54,8 @@
           <div class="work-description-inner">
         <p class="work-text">
           奈良の鹿<br>
-          まっすぐ見てくる眼が透き通ってる<br>
-          自然とポートレートっぽくなる<br>
+          まっすぐ見てくる眼が透き通ってて<br>
+          自然とポートレートに近づく<br>
           <a href="#" class ="button button-ghost">READ MORE</a>
         </p>
       </div>
@@ -89,12 +91,46 @@
       </div>
   </section>
   <section class="skills">
-    
+    <h2 class="heading">MY SKILLS</h2>
+    <div class="skills-wrapper">
+      <div class="skill-box">
+        <i class="fas fa-camera-retro"></i>
+        <div class="skill-title">PHOTOGRAPH</div>
+        <p class="skill-text">
+          人物写真、PV撮影をしています。<br>
+          使用カメラはNIKONのD750。
+        </p>
+      </div>
+      <div class="skill-box">
+        <i class="fas fa-om"></i>
+        <div class="skill-title">YOGA</div>
+        <p class="skill-text">
+          インドでインストラクターの資格を取りました。<br>
+          ハタヨガメインで、キッズヨガも教えています。
+          得意分野は解剖学、瞑想。
+        </p>
+      </div>
+      <div class="skill-box">
+        <i class="fas fa-code"></i>
+        <div class="skill-title">PROGRAMMING</div>
+        <p class="skill-text">
+          現在JAVAを修行中。<br>
+          HTML&CSSでサイト制作も行っています。
+        </p>
+      </div>
+    </div>
   </section>
   <section class="contact">
-    
+    <h2 class="heading">CONTACT</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="お名前">
+      <textarea name="message" placeholder="内容"></textarea>
+      <input type="submit" value="SEND">
+    </form>
   </section>
   <footer class="footer">
+    © KAZUMA YASUI
   </footer>
+  <script src="lib/placeholder.min.js"></script>
 </body>
 </html>

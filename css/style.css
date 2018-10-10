@@ -126,7 +126,7 @@ body {
   transform: scaleY(-1);
 }
 .work-box.india::after {
-  background-image: url('../images/india.jpg');
+  background-image: url('../images/india.JPG');
 }
 .work-box.deer::after {
   background-image: url('../images/deer.jpg');

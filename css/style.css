@@ -132,7 +132,7 @@ body {
   background-image: url('../images/deer.jpg');
 }
 .work-box.landscape::after {
-  background-image: url('../images/building.jpg');
+  background-image: url('../images/landscape.jpg');
 }
 .work-box.people::after {
   background-image: url('../images/people.JPG');

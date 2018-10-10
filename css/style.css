@@ -126,13 +126,13 @@ body {
   transform: scaleY(-1);
 }
 .work-box.india::after {
-  background-image: url('../images/india.JPG');
+  background-image: url('../images/india.jpg');
 }
 .work-box.deer::after {
-  background-image: url('../images/deer.JPG');
+  background-image: url('../images/deer.jpg');
 }
 .work-box.building::after {
-  background-image: url('../images/building.JPG');
+  background-image: url('../images/building.jpg');
 }
 .work-box.people::after {
   background-image: url('../images/people.JPG');
